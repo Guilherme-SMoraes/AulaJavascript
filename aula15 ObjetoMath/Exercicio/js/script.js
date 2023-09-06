@@ -1,0 +1,9 @@
+const numero = Number(prompt('Digite um número'));
+document.getElementById('numero').innerHTML = numero;
+document.getElementById('raizQuadrada').innerHTML = numero ** 0.5;
+document.getElementById('numeroInteiro').innerHTML = numero;
+document.getElementById('Inteiro').innerHTML = Number.isInteger(numero);
+document.getElementById('eNaN').innerHTML = Number.isNaN(numero);
+document.getElementById('arredondadoParaBaixo').innerHTML = Math.floor(numero);
+document.getElementById('arredondadoParaCima').innerHTML = Math.ceil(numero);
+document.getElementById('duasCasasDecimais').innerHTML = numero.toFixed(2);
