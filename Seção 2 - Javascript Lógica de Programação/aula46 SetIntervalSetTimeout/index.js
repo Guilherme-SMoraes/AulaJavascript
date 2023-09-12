@@ -6,4 +6,4 @@ function mostraHora() {
 	});
 }
 const timer = setInterval(() => console.log(mostraHora()), 1000);
-setTimeout(() => clearInterval(timer), 10000);
+setTimeout(() => clearInterval(relogioSegundos), 10000);
