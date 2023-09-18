@@ -1,0 +1,11 @@
+// const nomes = new Array('Eduardo', 'Marcos', 'Ana');
+const nomes = ['Eduardo', 'Marcos', 'Ana'];
+const novo = [...nomes];
+console.log(nomes);
+nomes[2] = 'Maria';
+console.log(nomes);
+delete nomes[2];
+const removido = nomes.pop();
+console.log(removido);
+console.log(nomes);
+console.log(novo);
